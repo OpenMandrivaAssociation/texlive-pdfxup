@@ -1,6 +1,6 @@
 Name:		texlive-pdfxup
 Version:	59001
-Release:	1
+Release:	2
 Summary:	Create n-up PDF pages with minimal margins
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdfxup
