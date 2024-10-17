@@ -3,7 +3,7 @@ Version:	59001
 Release:	2
 Summary:	Create n-up PDF pages with minimal margins
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pdfxup
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pdfxup
 License:	lppl1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdfxup.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pdfxup.doc.r%{version}.tar.xz
