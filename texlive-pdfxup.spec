@@ -1,5 +1,6 @@
 %global tl_name pdfxup
 %global tl_revision 71513
+%global tl_bin_links pdfxup:%{_texmfdistdir}/scripts/pdfxup/pdfxup
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(pdfxup.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 pdfxup is a Unix/Linux shell script that creates a PDF document where
